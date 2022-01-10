@@ -79,8 +79,8 @@ CMD="$HOME/minima_service.sh $@"
 /bin/sh -c "$CMD"
 
 echo -e "\033[36m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░" 
-echo -e "\033[33m░░░░░░░░░Install complete░░░░░░░░░"
-echo -e "\033[36m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░" 
+echo -e "\033[33m░░░░░░░░░Install complete░░░░░░░░░░"
+echo -e "\033[36m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░"  
 #journalctl -fn 10 -u minima_$PORT
 
 #wget -O minima_setup.sh https://raw.githubusercontent.com/minima-global/Minima/master/scripts/minima_setup.sh && 
