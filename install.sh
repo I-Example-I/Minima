@@ -78,16 +78,12 @@ chmod a+x /etc/cron.weekly/minima_$PORT
 CMD="$HOME/minima_service.sh $@"
 /bin/sh -c "$CMD"
 
-
-echo -e "\033[36m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░" &&
-echo -e "\033[33m"Install complete" &&
-echo -e "\033[36m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░" &&
+echo "Install complete"
 #journalctl -fn 10 -u minima_$PORT
 
 #wget -O minima_setup.sh https://raw.githubusercontent.com/minima-global/Minima/master/scripts/minima_setup.sh && 
 #chmod +x minima_setup.sh && sudo ./minima_setup.sh -r 9002 -p 9001
 
-sleep(5)
 echo -e ""
 echo -e ""
 echo -e "\033[36m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░" &&
